@@ -4,27 +4,25 @@
 
 #include "Book.h"
 
-#include <utility>
-
 //Define the function getData to get the publication, sales, and page count
 
+ void Book::putData() {
+    Publication::getData();
+    Sale::getData();
+    cout << "Number of pages: " << pageCount;
+}
 
 
 //Define the function putData to display the publication, sales, and page count
 
-Book::Book() : Sale() {
-    pageCount = 0;
+ void Book::getData() {
+Publication::putData();
+Sale::putData();
+cout << "Enter the number of pages:" << endl;
+cin >> pageCount;
 }
 
-void Book::getData(float *sales, string *title, float *price, int *pCount) {
-    Sale::getData(sales);
-    Publication::getData(title, price);
-    *pCount = pageCount;
-}
 
-void Book::putData(float *sales, string title, float price, int pCount) {
-    Sale::putData(sales);
-    Publication::putData(std::move(title), price);
-    pageCount = pCount;
-}
+
+
 

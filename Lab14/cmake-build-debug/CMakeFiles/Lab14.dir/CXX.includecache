@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Book.cpp
+Publication.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Publication.h
+Sale.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Sale.h
+Book.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Book.h
+
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Book.h
+Publication.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Publication.h
+Sale.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Sale.h
+
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Publication.h
+iostream
+-
+
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Sale.cpp
+Sale.h
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Sale.h
+
+/Users/shawn/Documents/GitHub/CECS282Lab14/Lab14/Sale.h
+iostream
+-
+
